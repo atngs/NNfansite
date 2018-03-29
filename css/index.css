@@ -16,7 +16,7 @@ header {
     /* 300px以上の時に読み込まれる */
 #main-panel {
   width: 100%;
-  height: 714px;
+  height: auto;
   padding: 75px 0 0 0; /*ヘッダーサイズを考慮*/
   background-color: rgba(0, 255, 239, 0.5); /*デバック*/
 }
@@ -24,6 +24,12 @@ header {
    display: block;
    width: 100%;
    height: auto;
+
+ }
+ #panel-img img {
+   display: block;
+   width: 100%;
+
  }
 
 #main-content {
@@ -50,8 +56,7 @@ header {
   background-color: rgba(0, 255, 239, 0.5); /*デバック*/
   margin: 0 auto;
 }
-　#panel-img p {
-  display: block;
+#panel-img p {
   width: 417px;
   height: 238px;
   float: left;
