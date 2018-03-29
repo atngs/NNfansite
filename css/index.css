@@ -12,6 +12,37 @@ header {
   background-color: rgba(0, 0, 0, 0.5); /*デバック*/
 }
 
+@media screen and (min-width:300px){
+    /* 300px以上の時に読み込まれる */
+#main-panel {
+  width: 100%;
+  height: 714px;
+  padding: 75px 0 0 0; /*ヘッダーサイズを考慮*/
+  background-color: rgba(0, 255, 239, 0.5); /*デバック*/
+}
+ #panel-img p {
+   display: block;
+   width: 100%;
+   height: auto;
+ }
+
+#main-content {
+  width: 100%;
+  height: auto;
+  background-color: rgba(220, 0, 255, 0.5); /*デバック*/
+}
+ .debug { /*デバック*/
+   width: 100%;
+   height: 300px;
+ }
+
+}
+
+
+
+@media screen and (min-width:1024px){
+    /* 1024px以上の時に読み込まれる */
+
 #main-panel {
   width: 1251px;
   height: 238px;
@@ -37,6 +68,8 @@ header {
    width: auto;
    height: 300px;
  }
+
+}
 
 footer {
   width: 100%;
