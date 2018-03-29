@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed; /*ページ上部へ固定*/
+  width: 100%;
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.5); /*デバック*/
+}
+
+#main-panel {
+  width: 1251px;
+  height: 238px;
+  padding: 75px 0 0 0; /*ヘッダーサイズを考慮*/
+  background-color: rgba(0, 255, 239, 0.5); /*デバック*/
+  margin: 0 auto;
+}
+　#panel-img p {
+  display: block;
+  width: 417px;
+  height: 238px;
+  float: left;
+ }
+
+#main-content {
+  width: 1251px;
+  height: auto;
+  margin: 0 auto;
+  clear: left;
+  background-color: rgba(220, 0, 255, 0.5); /*デバック*/
+}
+ .debug { /*デバック*/
+   width: auto;
+   height: 300px;
+ }
+
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(255, 0, 128, 0.5); /*デバック*/
+}
